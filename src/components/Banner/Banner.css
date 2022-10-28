@@ -1,0 +1,20 @@
+.Banner{
+    background-image: url("./banner2.jpg");
+}
+
+.BannerContent{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    justify-content: space-around;
+
+}
+
+.BannerTagLine{
+   display: flex;
+   height: 40%;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;   
+}

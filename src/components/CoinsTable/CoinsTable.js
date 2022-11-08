@@ -48,8 +48,8 @@ const CoinsTable = () => {
    const handleSearch = () => {
     return Coins.filter(
       (coin) =>
-        coin.name.toLowerCase().includes(Search) ||
-        coin.symbol.toLowerCase().includes(Search)
+        coin.name.toLowerCase().includes(Search.toLowerCase()) ||
+        coin.symbol.toLowerCase().includes(Search.toLowerCase())
     );
   };
 

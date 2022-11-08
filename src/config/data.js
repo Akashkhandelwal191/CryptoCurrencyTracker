@@ -1,3 +1,4 @@
+//This is Only Chart Days
 export const chartDays = [
     {
       label: "24 Hours",
